@@ -31,7 +31,7 @@ start_year: "2012"
 # Else if you are pushing to username.github.com, replace with your username.
 # Finally if you are pushing to a GitHub project page, include the project name at the end.
 #
-production_url : http://blog.EverCoding.net
+production_url : http://markxue.info
 
 # All Jekyll-Bootstrap specific configurations are namespaced into this hash
 #
@@ -86,11 +86,11 @@ JB :
   comments :
     provider : disqus
     disqus :
-      short_name : evcblog
+      short_name : markxue
     livefyre :
-      site_id : 123
+      site_id : markxue
     intensedebate :
-      account : 123abc
+      account : 12345678912345
     facebook :
       appid : 123
       num_posts: 5
