@@ -86,11 +86,11 @@ JB :
  comments :
     provider : disqus
     disqus :
-      short_name : evcblog
+      short_name : 
     livefyre :
-      site_id : 123
+      site_id : 
     intensedebate :
-      account : 123abc
+      account : 
     facebook :
       appid : 123
       num_posts: 5
