@@ -87,15 +87,7 @@ JB :
     provider : disqus
     disqus :
       short_name : markxue
-    livefyre :
-      site_id : 
-    intensedebate :
-      account : 
-    facebook :
-      appid : 123
-      num_posts: 5
-      width: 580
-      colorscheme: light
+
 
   # Settings for analytics helper
   # Set 'provider' to the analytics provider you want to use.
