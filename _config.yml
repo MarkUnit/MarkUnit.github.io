@@ -13,13 +13,13 @@ description_length: 200
 # so be sure to set them if your theme uses them.
 #
 title : 林中路
-address:  markxue.info
-tagline: 林中路，路中林
+address: EverCoding.net
+tagline: 林中路 路中林
 author :
   name : mark
   email : mbxue1991@gmail.com
   github : markunit
-  twitter : mark_snowman
+  twitter : username
   feedburner : feedname
 start_year: "2012"
 
@@ -31,7 +31,7 @@ start_year: "2012"
 # Else if you are pushing to username.github.com, replace with your username.
 # Finally if you are pushing to a GitHub project page, include the project name at the end.
 #
-production_url : http://markxue.info
+production_url :  http://markxue.info
 
 # All Jekyll-Bootstrap specific configurations are namespaced into this hash
 #
@@ -83,11 +83,19 @@ JB :
   # Set 'provider' to the comment provider you want to use.
   # Set 'provider' to false to turn commenting off globally.
   #
-   comments :
-      provider : disqus
-      disqus :
-        short_name : markxue
-
+  comments :
+    provider : disqus
+    disqus :
+      short_name : evcblog
+    livefyre :
+      site_id : 123
+    intensedebate :
+      account : 123abc
+    facebook :
+      appid : 123
+      num_posts: 5
+      width: 580
+      colorscheme: light
 
   # Settings for analytics helper
   # Set 'provider' to the analytics provider you want to use.
@@ -120,4 +128,3 @@ JB :
   # and include your custom code. Your custom file must be defined at:
   #   ./_includes/custom/[HELPER]
   # where [HELPER] is the name of the helper you are overriding.
-
