@@ -86,7 +86,7 @@ JB :
  comments :
     provider : disqus
     disqus :
-      short_name : 
+      short_name : markxue
     livefyre :
       site_id : 
     intensedebate :
